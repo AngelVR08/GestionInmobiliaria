@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: #D9D5D2;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="150.0" prefWidth="1200.0" style="-fx-background-color: #262626;">
+         <children>
+            <Text fill="WHITE" layoutX="411.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gestion De Inquilinos" textAlignment="CENTER">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Text layoutX="14.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre del inquilino:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="15.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Direccion del inquilino:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="16.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edad">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Button layoutX="14.0" layoutY="493.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="200.0" style="-fx-background-color: #A69B8F;" text="Guardar">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <TextField layoutX="14.0" layoutY="237.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextField layoutX="14.0" layoutY="192.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextField layoutX="14.0" layoutY="278.0" prefHeight="25.0" prefWidth="200.0" />
+      <TableView layoutX="219.0" layoutY="172.0" prefHeight="500.0" prefWidth="975.0">
+         <columns>
+            <TableColumn prefWidth="139.0" text="Nombre" />
+            <TableColumn minWidth="0.0" prefWidth="137.0" text="Fec. Nacimiento" />
+            <TableColumn prefWidth="139.0" text="Dir. del iquilino" />
+            <TableColumn prefWidth="140.0" text="Inm. Elejido" />
+            <TableColumn prefWidth="140.0" text="Num. Cuarto" />
+            <TableColumn prefWidth="136.0" text="Inc. Estadia" />
+            <TableColumn prefWidth="143.0" text="Costo" />
+         </columns>
+      </TableView>
+      <Text layoutX="14.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inmueble elejido:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="17.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Num. Cuarto:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="15.0" layoutY="406.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inicio de estadia:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="15.0" layoutY="451.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Costo:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField layoutX="14.0" layoutY="456.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextField layoutX="14.0" layoutY="323.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextField layoutX="14.0" layoutY="368.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextField layoutX="14.0" layoutY="410.0" prefHeight="25.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
