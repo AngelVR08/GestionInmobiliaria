@@ -9,7 +9,6 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: #D9D5D2;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Pane prefHeight="150.0" prefWidth="1200.0" style="-fx-background-color: #262626;">
@@ -31,19 +30,19 @@
             <Font size="15.0" />
          </font>
       </Text>
-      <Text layoutX="14.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fecha de nacimiento:">
+      <Text layoutX="14.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edad:">
          <font>
             <Font size="15.0" />
          </font>
       </Text>
-      <Button layoutX="14.0" layoutY="462.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="200.0" style="-fx-background-color: #A69B8F;" text="Guardar">
+      <Button fx:id="guardarBtn" layoutX="14.0" layoutY="462.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="200.0" style="-fx-background-color: #A69B8F;" text="Guardar">
          <font>
             <Font size="15.0" />
          </font>
       </Button>
-      <TextField layoutX="14.0" layoutY="247.0" prefHeight="25.0" prefWidth="200.0" />
-      <TextField layoutX="14.0" layoutY="202.0" prefHeight="25.0" prefWidth="200.0" />
-      <TextField layoutX="14.0" layoutY="293.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextField fx:id="edadTxt" layoutX="14.0" layoutY="247.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextField fx:id="nombreTxt" layoutX="14.0" layoutY="202.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextField fx:id="direccionTxt" layoutX="14.0" layoutY="293.0" prefHeight="25.0" prefWidth="200.0" />
       <Text layoutX="15.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cargo del empleado:">
          <font>
             <Font size="15.0" />
@@ -59,9 +58,9 @@
             <Font size="15.0" />
          </font>
       </Text>
-      <TextField layoutX="14.0" layoutY="338.0" prefHeight="25.0" prefWidth="200.0" />
-      <TextField layoutX="14.0" layoutY="383.0" prefHeight="25.0" prefWidth="200.0" />
-      <TextField layoutX="14.0" layoutY="428.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextField fx:id="cargoTxt" layoutX="14.0" layoutY="338.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextField fx:id="fechaTxt" layoutX="14.0" layoutY="383.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextField fx:id="salarioTxt" layoutX="14.0" layoutY="428.0" prefHeight="25.0" prefWidth="200.0" />
       <TableView layoutX="219.0" layoutY="178.0" prefHeight="500.0" prefWidth="975.0">
          <columns>
             <TableColumn prefWidth="166.0" text="Nombre" />
@@ -77,8 +76,8 @@
             <Font size="15.0" />
          </font>
       </Text>
-      <TextField layoutX="14.0" layoutY="562.0" prefHeight="25.0" prefWidth="200.0" />
-      <Button layoutX="14.0" layoutY="596.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="200.0" style="-fx-background-color: #A69B8F;" text="Eliminar">
+      <TextField fx:id="eliminarBtn" layoutX="14.0" layoutY="562.0" prefHeight="25.0" prefWidth="200.0" />
+      <Button fx:id="eliminarBtn" layoutX="14.0" layoutY="596.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="200.0" style="-fx-background-color: #A69B8F;" text="Eliminar">
          <font>
             <Font size="15.0" />
          </font>
